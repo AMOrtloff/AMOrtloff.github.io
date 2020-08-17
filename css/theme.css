@@ -137,10 +137,25 @@ a:hover {
   padding: 18px;
 }
 
-.leftside_same_size {
-  width:20%;
+.leftside_grid {
   font-weight:bold;
-  display:inline-block;
+  /*display:inline-block;*/
+}
+
+ul {
+  padding-left:40px;
+}
+
+ul li.uk-grid.custom_grid {
+  margin-top: 10px;
+}
+
+ul li.uk-grid.custom_grid > * {
+  padding-left:0;
+}
+
+.uk-grid.custom_grid + .uk-grid.custom_grid {
+  margin-top:10px;
 }
 
 .uk_button_override {

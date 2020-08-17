@@ -15,13 +15,12 @@
   <link rel="stylesheet" href="css/theme.css" />
 </head>
 <body>
-
   <nav class="uk-navbar-container uk-navbar-transparent navigation" uk-navbar>
       <div class="uk-navbar-left">
         <div class="cv_name">Anna-Marie Ortloff</div>
       </div>
       <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
+          <ul class="uk-navbar-nav uk-grid uk-grid-collapse uk-child-width-auto@s">
               <li>
                 <a href="#cv_publications" class="nav_link">Publications</a>
               </li>
@@ -37,23 +36,20 @@
   <hr>
 
 <div class="uk-container uk-container-small">
-  <div class="uk-grid">
-    <div class="uk-width-3-4">
+  <div class="uk-grid-small" uk-grid>
+    <div class="uk-width-3-4@s">
       <p>I am a Master's student interested in usability, privacy, security and human information behavior, as well as empirical methods.
         I would like to continue my education with a Phd somewhere at the intersection of these fields.</p>
       <p>At the moment I am studying Media Informatics at the University of Regensburg, Germany.
         I'm also working on my thesis with the working title "A Comparison of Nudging and Boosting for Privacy during Web Browsing".
         Before that, I completed a Bachelor's degree in Information Science (major), Media Informatics (minor) and Spanish (minor). </p>
     </div>
-    <div class="uk-width-1-4">
-      <div class="uk-grid uk-flex-center">
-        <div class="uk-width-1-1">
-         <img class="profile" src="img/profile_square.png" width=150px, height=150px alt="Personal photo" uk-img>
-       </div>
-     <p class="e-mail uk-width-1-1">first . last at student.ur.de</p>
+    <div class="uk-width-1-4@s uk-text-center">
+      <img class="profile" src="img/profile_square.png" width=150px, height=150px alt="Personal photo" uk-img>
+      <p class="e-mail">first . last at student.ur.de</p>
       </div>
     </div>
-  </div>
+
   <!-- Publications -->
   <h2 id="cv_publications" class="cv_heading">Publications</h2>
   <ul class="uk-list">
@@ -210,34 +206,40 @@
 
   <!--Service-->
   <h2 id="cv_service" class="cv_heading">Academic Service</h2>
-  <ul class="uk-list">
-    <li><div class="leftside_same_size">Student Volunteer:</div> Muc'18, MuC'17</li>
-    <li><div class="leftside_same_size">Conference Team:</div> COSIT'19</li>
+  <ul>
+    <li class="uk-grid custom_grid">
+      <div class="leftside_grid uk-width-1-5@s">Student Volunteer:</div>
+      <div class="uk-width-4-5@s">Muc'18, MuC'17</div>
+    </li>
+    <li class="uk-grid custom_grid">
+      <div class="leftside_grid uk-width-1-5@s">Conference Team:</div>
+      <div class="uk-width-4-5@s">COSIT'19</div>
+    </li>
   </ul>
 
 
   <!--Teaching-->
   <h2 id="cv_teaching" class="cv_heading">Teaching</h2>
-  <ul class="uk-list">
-    <li>
-        <div class="leftside_same_size">Summer 2020</div>
-        Teaching assistant for Survey and Experiment Design (Online)
+  <ul>
+    <li class="uk-grid custom_grid">
+        <div class="leftside_grid uk-width-1-5@s">Summer 2020</div>
+        <div class="uk-width-4-5@s">Teaching assistant for Survey and Experiment Design (Online)</div>
     </li>
-    <li>
-        <div class="leftside_same_size">Winter 2019/20</div>
-        Teaching assistant for Efficient Data Processing and Storage
+    <li class="uk-grid custom_grid">
+        <div class="leftside_grid uk-width-1-5@s">Winter 2019/20</div>
+        <div class="uk-width-4-5@s">Teaching assistant for Efficient Data Processing and Storage</div>
     </li>
-    <li>
-        <div class="leftside_same_size">Summer 2019 & 2018</div>
-        Teaching assistant for Survey and Experiment Design
+    <li class="uk-grid custom_grid">
+        <div class="leftside_grid uk-width-1-5@s">Summer 2019 & 2018</div>
+        <div class="uk-width-4-5@s">Teaching assistant for Survey and Experiment Design</div>
     </li>
-    <li>
-        <div class="leftside_same_size">Winter 2018/19</div>
-        Teaching assistant for User Centered Design and Human Information Behavior
+    <li class="uk-grid custom_grid">
+        <div class="leftside_grid uk-width-1-5@s">Winter 2018/19</div>
+        <div class="uk-width-4-5@s">Teaching assistant for User Centered Design and Human Information Behavior</div>
     </li>
-    <li>
-        <div class="leftside_same_size">Winter 2017/18</div>
-        Tutor for Introduction to Computer Science and Media Informatics
+    <li class="uk-grid custom_grid">
+        <div class="leftside_grid uk-width-1-5@s">Winter 2017/18</div>
+        <div class="uk-width-4-5@s">Tutor for Introduction to Computer Science and Media Informatics</div>
     </li>
   </ul>
 
