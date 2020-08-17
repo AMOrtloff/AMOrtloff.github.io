@@ -119,7 +119,7 @@ a:hover {
 }
 
 .cv_heading::before{
-  font-family: "robotolight", "Segoe UI", "Trebuchet MS", "Arial", sans-serif;
+  font-family: "robotolight", "Segoe UI", "Trebuchet MS", "Arial", "Times New Roman", sans-serif;
 
   content: "\205D \0020 \0020"
 }
