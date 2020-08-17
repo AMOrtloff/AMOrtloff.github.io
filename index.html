@@ -1,7 +1,249 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Anna-Marie Ortloff</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Anna-Marie Ortloff">
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="libs/uikit-3.5.6/css/uikit.min.css"/>
+  <!-- Fonts -->
+  <link rel="stylesheet"/ href="css/fonts.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/theme.css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <nav class="uk-navbar-container uk-navbar-transparent navigation" uk-navbar>
+      <div class="uk-navbar-left">
+        <div class="cv_name">Anna-Marie Ortloff</div>
+      </div>
+      <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+              <li>
+                <a href="#cv_publications" class="nav_link">Publications</a>
+              </li>
+              <li>
+                  <a href="#cv_service" class="nav_link">Service</a>
+              </li>
+              <li>
+                <a href="#cv_teaching" class="nav_link">Teaching</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <hr>
+
+<div class="uk-container uk-container-small">
+  <div class="uk-grid">
+    <div class="uk-width-3-4">
+      <p>I am a Master's student interested in usability, privacy, security and human information behavior, as well as empirical methods.
+        I would like to continue my education with a Phd somewhere at the intersection of these fields.</p>
+      <p>At the moment I am studying Media Informatics at the University of Regensburg, Germany.
+        I'm also working on my thesis with the working title "A Comparison of Nudging and Boosting for Privacy during Web Browsing".
+        Before that, I completed a Bachelor's degree in Information Science (major), Media Informatics (minor) and Spanish (minor). </p>
+    </div>
+    <div class="uk-width-1-4">
+      <div class="uk-grid uk-flex-center">
+        <div class="uk-width-1-1">
+         <img class="profile" src="img/profile_square.png" width=150px, height=150px alt="Personal photo" uk-img>
+       </div>
+     <p class="e-mail uk-width-1-1">first . last at student.ur.de</p>
+      </div>
+    </div>
+  </div>
+  <!-- Publications -->
+  <h2 id="cv_publications" class="cv_heading">Publications</h2>
+  <ul class="uk-list">
+    <li >
+      Anna-Marie Ortloff, Maximiliane Windl, Valentin Schwind, & Niels Henze </br>
+      <span class="publication_title">Implementation and In Situ Assessment of Contextual Privacy Policies</span></br>
+     (<strong>2020</strong>) Proceedings of the Designing Interactive Systems Conference. (DIS'20) <br>
+     <div class="resources">
+         <div class="like_link" onclick="toggleVisibility(this, 'bibtex')">[Bibtex]</div>
+         <a href="papers/Ortloff2020_DIS_CPPcamera_ready.pdf">[PDF]</a>
+         <div class="like_link" onclick="toggleVisibility(this, 'abstract')">[Abstract]</div>
+         <div class="additional_info pub_bibtex hidden">
+           <button class="uk-button uk-button-default uk_button_override" onclick="copyTextToClipboard(this)">
+             Copy BibTeX
+             </button>
+           <p>@inproceedings{Ortloff2020_CPP,</br>
+            title = {Implementation and In Situ Assessment of Contextual Privacy Policies},</br>
+            author = {Anna-Marie Ortloff and Maximiliane Windl and Valentin Schwind and Niels Henze},</br>
+            doi = {10.1145/3357236.3395549},</br>
+            isbn = {9781450369749},</br>
+            year = {2020},</br>
+            date = {2020-07-06},</br>
+            booktitle = {Proceedings of the 2020 Designing Interactive Systems Conference},</br>
+            pages = {14},</br>
+            publisher = {Association for Computing Machinery},</br>
+            address = {Eindhoven, Netherlands},</br>
+            series = {DIS ’20}</br>
+            }
+          </p>
+         </div>
+         <div class="additional_info pub_abstract hidden">
+           <p>
+             Online services collect an increasing amount of data about their users. Privacy policies are currently the only common way to inform users about the kinds of data collected, stored and processed by online services. Previous work showed that users do not read and understand privacy policies, due to their length, difficult language, and often non-prominent location. Embedding privacy-relevant information directly in the context of use could help users understand the privacy implications of using online services. We implemented Contextual Privacy Policies (CPPs) as a browser extension and provide it to the community to make privacy information accessible for end-users. We evaluated CPPs through a one-week deployment and in situ questionnaires as well as pre- and post-study interviews. We found that CPPs were well received by participants. The analysis revealed that provided information should be as compact as possible, be adjusted to user groups and enable users to take action.
+           </p>
+         </div>
+      </div>
+    </li>
+
+    <li>
+      Anna-Marie Ortloff, Maximiliane Windl, Lydia Güntner & Thomas Schmidt </br>
+      <span class="publication_title">Towards a Graphical User Interface for Quantitative Analysis in Digital Musicology</span></br>
+     (<strong>2019</strong>) Mensch und Computer, workshop paper (MuC '19)<br>
+     <div class="resources">
+         <div class="like_link" onclick="toggleVisibility(this, 'bibtex')">[Bibtex]</div>
+         <a href="papers/Ortloff2019_MuC_BeyondTheNotes.pdf">[PDF]</a>
+         <div class="like_link" onclick="toggleVisibility(this, 'abstract')">[Abstract]</div>
+         <div class="additional_info pub_bibtex hidden">
+           <button class="uk-button uk-button-default uk_button_override" onclick="copyTextToClipboard(this)">
+             Copy BibTeX
+             </button>
+           <p>@inproceedings{Ortloff2019_BeyondTheNotes,</br>
+             author = {Ortloff, Anna-Marie and Windl, Maximiliane and Güntner, Lydia and Schmidt, Thomas},</br>
+             title = {Towards a Graphical User Interface for Quantitative Analysis in Digital Musicology},</br>
+             booktitle = {Mensch und Computer 2019 - Workshopband},</br>
+             year = {2019},</br>
+             editor = {Alt, Florian and Bulling, Andreas and Döring, Tanja},</br>
+             doi = {10.18420/muc2019-ws-568},</br>
+             publisher = {Gesellschaft für Informatik e.V.},</br>
+             address = {Bonn}</br>
+           }
+           </p>
+         </div>
+         <div class="additional_info pub_abstract hidden">
+           <p>
+             We introduce the first prototype of a web application for digital musicology: BeyondTheNotes (working title).
+             The goal of the tool is to support the in-depth analysis of individual pieces of music as well as the large scale analysis and comparison of summative features of multiple pieces of music.
+             In contrast to existing tools, BeyondTheNotes is ready to use without installation, enables the upload and analysis of own material and offers different visualizations of musical metrics like chords, pitches, durations and key.
+             We design the tool according to the User Centered Design Approach to improve the usability and address the specific needs of musicologists.
+             We describe the results of the requirement analysis and discuss future steps.
+           </p>
+         </div>
+      </div>
+    </li>
+
+    <li>
+      Anna-Marie Ortloff, Lydia Güntner, Maximiliane Windl, Thomas Schmidt, Martin Kocur & Christian Wolff </br>
+      <span class="publication_title">SentiBooks: Enhancing audiobooks via affective computing and smart light bulbs</span></br>
+     (<strong>2019</strong>) Proceedings of Mensch und Computer (MuC '19)</br>
+     <div class="resources">
+         <div class="like_link" onclick="toggleVisibility(this, 'bibtex')">[Bibtex]</div>
+         <a href="papers/Ortloff2019_MuC_Sentibooks.pdf">[PDF]</a>
+         <div class="like_link" onclick="toggleVisibility(this, 'abstract')">[Abstract]</div>
+         <div class="additional_info pub_bibtex hidden">
+           <button class="uk-button uk-button-default uk_button_override" onclick="copyTextToClipboard(this)">
+             Copy BibTeX
+             </button>
+           <p>@inproceedings{Ortloff2019_Sentibooks,</br>
+             author = {Ortloff, Anna-Marie and Güntner, Lydia and Windl, Maximiliane and Schmidt, Thomas and Kocur, Martin and Wolff, Christian},</br>
+             title = {SentiBooks: Enhancing Audiobooks via Affective Computing and Smart Light Bulbs},</br>
+             booktitle = {Mensch und Computer 2019 - Tagungsband},</br>
+             year = {2019},</br>
+             editor = {Alt, Florian and Bulling, Andreas and Döring, Tanja},</br>
+             doi = { 10.1145/3340764.3345368 },</br>
+             publisher = {ACM},</br>
+             address = {New York}</br>
+           }
+          </p>
+         </div>
+         <div class="additional_info pub_abstract hidden">
+           <p>
+             We present SentiBooks, a smartphone application to enhance the audiobook listening experience via affective computing and smart light bulbs.
+             Users can connect to Philips Hue Light Bulbs with a smartphone app while listening to an audiobook.
+             The app analyzes the emotional expression of the narrator of the audiobook using speech emotion recognition and adjusts the colors of the lighting settings according to the expression of the narrator in 10-seconds intervals.
+             By transitioning between colors that are connected to the specific emotion that is currently dominant in the reading, the overall audiobook experience is intensified.
+           </p>
+         </div>
+      </div>
+    </li>
+
+    <li>
+      Anna-Marie Ortloff, Lydia Güntner, Maximiliane Windl, Denis Feth & Svenja Polst </br>
+      <span class="publication_title">Evaluation kontextueller Datenschutzerklärungen</span></br>
+     (<strong>2018</strong>) Mensch und Computer, workshop paper (MuC '18)<br>
+     <div class="resources">
+         <div class="like_link" onclick="toggleVisibility(this, 'bibtex')">[Bibtex]</div>
+         <a href="papers/Ortloff2018_MuC_Evaluation.pdf">[PDF]</a>
+         <div class="like_link" onclick="toggleVisibility(this, 'abstract')">[Abstract]</div>
+         <div class="additional_info pub_bibtex hidden">
+           <button class="uk-button uk-button-default uk_button_override" onclick="copyTextToClipboard(this)">
+             Copy BibTeX
+             </button>
+           <p>@inproceedings{Ortloff2018_CPP, </br>
+             author = {Ortloff, Anna-Marie and Güntner, Lydia and Windl, Maximiliane and Feth, Denis and Polst, Svenja}, </br>
+             title = {Evaluation kontextueller Datenschutzerklärungen},</br>
+             booktitle = {Mensch und Computer 2018 - Workshopband},</br>
+             year = {2018},</br>
+             editor = {Dachselt, Raimund and Weber, Gerhard},</br>
+             doi = {10.18420/muc2018-ws08-0541},</br>
+             publisher = {Gesellschaft für Informatik e.V.},</br>
+             address = {Bonn}</br>
+           }
+          </p>
+        </div>
+         <div class="additional_info pub_abstract hidden">
+           <p>
+             Datenschutzerklärungen sind häufig schwer zu finden und zu verstehen.
+             Daher lesen viele Nutzer sie nur teilweise oder gar nicht.
+             Kontextuelle Datenschutzerklärungen verfolgen einen alternativen Ansatz.
+             Hier werden Datenschutzinformationen für den Nutzungskontext maßgeschneidert und nur die jeweils relevanten Informationen angezeigt.
+             In dieser Arbeit wurde in einer Nutzerstudie untersucht, ob Nutzer diesen Ansatz akzeptieren und ob sie ein besseres, gefühltes Verständnis bezüglich der Datenschutzinformationen haben.
+             Es zeigte sich, dass kontextuelle Datenschutzerklärungen durchweg positiv aufgenommen werden und gegenüber der klassischen Darstellung im Fließtext präferiert werden.
+           </p>
+           <p><span class="focus">[English translation]</span>
+             Privacy policies are often both hard to find and hard to understand, and because of this, many users read them only partially, or not at all.
+             Contextual privacy policies are a different approach, whereby privacy statements are tailored to the current context of use.
+             Only the respective relevant information is displayed.
+             In this work, a user study was employed to test if users accept this approach, and if they reach a better perceived understanding of privacy policies through it.
+             We could show that contextual privacy policies were received positively, and preferred over the common long textual form of presentation.
+           </p>
+         </div>
+      </div>
+    </li>
+  </ul>
+
+  <!--Service-->
+  <h2 id="cv_service" class="cv_heading">Academic Service</h2>
+  <ul class="uk-list">
+    <li><div class="leftside_same_size">Student Volunteer:</div> Muc'18, MuC'17</li>
+    <li><div class="leftside_same_size">Conference Team:</div> COSIT'19</li>
+  </ul>
+
+
+  <!--Teaching-->
+  <h2 id="cv_teaching" class="cv_heading">Teaching</h2>
+  <ul class="uk-list">
+    <li>
+        <div class="leftside_same_size">Summer 2020</div>
+        Teaching assistant for Survey and Experiment Design (Online)
+    </li>
+    <li>
+        <div class="leftside_same_size">Winter 2019/20</div>
+        Teaching assistant for Efficient Data Processing and Storage
+    </li>
+    <li>
+        <div class="leftside_same_size">Summer 2019 & 2018</div>
+        Teaching assistant for Survey and Experiment Design
+    </li>
+    <li>
+        <div class="leftside_same_size">Winter 2018/19</div>
+        Teaching assistant for User Centered Design and Human Information Behavior
+    </li>
+    <li>
+        <div class="leftside_same_size">Winter 2017/18</div>
+        Tutor for Introduction to Computer Science and Media Informatics
+    </li>
+  </ul>
+
+</div>
+
+<script src="libs/uikit-3.5.6/js/uikit.min.js"></script>
+<script src="js/theme.js"></script>
 </body>
 </html>

@@ -1,0 +1,156 @@
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-fontfacekit/roboto_regular/Roboto-Regular-webfont.eot');
+    src: url('../fonts/roboto-fontfacekit/roboto_regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-fontfacekit/roboto_regular/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-fontfacekit/roboto_regular/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-fontfacekit/roboto_regular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-fontfacekit/roboto_light/Roboto-Light-webfont.eot');
+    src: url('../fonts/roboto-fontfacekit/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-fontfacekit/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/roboto-fontfacekit/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-fontfacekit/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-fontfacekit/roboto_thin/Roboto-Thin-webfont.eot');
+    src: url('../fonts/roboto-fontfacekit/roboto_thin/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-fontfacekit/roboto_thin/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/roboto-fontfacekit/roboto_thin/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-fontfacekit/roboto_thin/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hidden{
+  display:none;
+}
+
+.focus{
+  font-weight:bold;
+}
+
+
+body {
+  font-family: "Segoe UI", "Trebuchet MS", "Arial", sans-serif;
+  font-size: 1rem;
+  color: #292929;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+img.profile {
+  border-radius: 50%;
+  display:block;
+  margin: 0 auto;
+}
+
+p.e-mail {
+  color: #4f4f4f;
+  text-align: center;
+}
+
+
+a {
+  color:#009933; /* green */
+}
+
+a:hover {
+  color: #006622; /*slightly darker green*/
+}
+
+.nav_link {
+  color: #292929 !important;
+}
+
+.nav_link:hover {
+  color:#006622 !important;
+}
+
+.like_link {
+  color:#009933;
+  cursor:pointer;
+}
+
+.like_link:hover{
+  color: #006622;
+  text-decoration:underline;
+}
+
+.resources .like_link {
+  display:inline;
+}
+
+.publication_title{
+  font-style:oblique;
+}
+
+.cv_name {
+  font-family: "robotolight", "Segoe UI", "Trebuchet MS", "Arial", sans-serif;
+  font-weight:300;
+  font-size: 1.35rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+
+}
+
+.navigation {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.cv_heading {
+  font-family: "robotolight", "Segoe UI", "Trebuchet MS", "Arial", sans-serif;
+  font-size:1.7rem;
+}
+
+.cv_heading::before{
+  font-family: "robotolight", "Segoe UI", "Trebuchet MS", "Arial", sans-serif;
+
+  content: "\205D \0020 \0020"
+}
+
+.pub_bibtex {
+  padding: 8px 8px 8px 8px;
+  margin: 10px;
+  font-family:"Courier New", Monospace;
+  font-weight: 400;
+  background-color:#fafafa;
+}
+
+.pub_abstract {
+  font-size:0.9rem;
+  padding: 18px;
+}
+
+.leftside_same_size {
+  width:20%;
+  font-weight:bold;
+  display:inline-block;
+}
+
+.uk_button_override {
+    background-color: white;
+    text-transform:initial;
+    font-family:"robotolight", "Segoe UI", "Trebuchet MS", "Arial", sans-serif;
+}
+
+.uk_button_override:hover {
+  background-color: white;
+  color: #006622;
+  font-weight: bold;
+}
