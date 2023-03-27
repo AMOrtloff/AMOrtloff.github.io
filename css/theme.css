@@ -73,6 +73,14 @@ a:hover {
   color: #006622; /*slightly darker green*/
 }
 
+.link-icon {
+  color:#4f4f4f;
+}
+
+.link-icon:hover {
+   color:#006622;
+ }
+
 .nav_link {
   color: #292929 !important;
 }
